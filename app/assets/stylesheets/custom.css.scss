@@ -1,0 +1,108 @@
+/*$navbar-default-bg: #1560b5;
+*/
+$navbar-default-bg: black;
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+#logo{
+	float:left;
+	font-size: 1.7em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#logo:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+.center{
+	text-align: center;
+
+}
+
+.jumbotron{
+	background-image: asset-url('cover-img.png');
+/*	background-size: cover; 
+*/	height: 600px;
+}
+
+.jumbotron h1{
+	color: #bcccdd;
+	margin-bottom: 50px;
+	letter-spacing: -1px;
+	text-align: center;
+
+}
+
+.btn-xlarge{
+	font-size: 1.7em;
+	background-color: black;
+}
+
+.employee-actions{
+	border-top: 1px solid #eaeaea;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+
+.employee-id{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.employee-name{
+	border-top: 1px solid #eaeaea;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.employee-meta-details{
+	border-top: 1px solid #eaeaea;
+	margin-top: 5px;
+}
+
+.control-lbel{
+	text-align: right;
+	padding-top: 5px;
+}
+
+.signup{
+	height: 300px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.userlisting{
+	list-style: none;
+	padding: 0px;
+}
+
+.results-block{
+	display: inline-block;
+}
+
+
+footer{
+	margin-top: 35px;
+	padding-top: 5px;
+	color: #777;
+	border-top: 2px solid #eaeaea;
+}
+
+footer a:hover{
+	color: #222;
+}
+
+footer small{
+	float: left;
+}
+
+footer ul{
+	float: right;
+	list-style: none;
+}
