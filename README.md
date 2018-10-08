@@ -18,6 +18,4 @@ rails server -b 0.0.0.0
 for this Heroku needs to be installed.
 Push this repo on heroku master.
 Heroku is used for production deployment
-[https://sax-app.herokuapp.com/
-](Link URL)
 Jenkins job for CI/CD, pipeline is created.
