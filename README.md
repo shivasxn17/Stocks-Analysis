@@ -40,11 +40,11 @@ graph LR
     C -- Sends Response --> B
     B -- Sends Response --> A
 
-    style B fill:#f9f,stroke:#333,stroke-width:2px
-    style C fill:#ccf,stroke:#333,stroke-width:2px
-    style D fill:#aaf,stroke:#333,stroke-width:2px
-    style F fill:#88f,stroke:#333,stroke-width:2px
-    style E fill:#66f,stroke:#333,stroke-width:2px
+    style B fill:#fff,stroke:#000,stroke-width:2px
+    style C fill:#fff,stroke:#000,stroke-width:2px
+    style D fill:#fff,stroke:#000,stroke-width:2px
+    style F fill:#fff,stroke:#000,stroke-width:2px
+    style E fill:#fff,stroke:#000,stroke-width:2px
 
-    classDef controller fill:#ccf,stroke:#333,stroke-width:2px
+    classDef controller fill:#fff,stroke:#000,stroke-width:2px
     class C controller
